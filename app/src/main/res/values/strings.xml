@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">El Santuario</string>
+    <string name="titulo">El Santuario</string>
+    <string name="username">Nombre de Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="registrese">Registrese</string>
+    <string name="registro">Registro</string>
+    <string name="rpassword">Repetir Contraseña</string>
+    <string name="correo">Correo Electrónico</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="miperfil">Mi Perfil</string>
+    <string name="cerrar">Cerrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="elsantuario1">El Santuario</string>
+    <string name="title_activity_hoteles">HotelesActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

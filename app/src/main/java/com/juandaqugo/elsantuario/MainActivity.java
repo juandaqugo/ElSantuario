@@ -41,6 +41,28 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
                 break;
+            case R.id.mbares:
+                intent = new Intent(MainActivity.this, fragmentsActivity.class);
+                intent.putExtra("username", username);
+                intent.putExtra("correo", correo);
+                startActivity(intent);
+                finish();
+                break;
+            case R.id.mhoteles:
+                intent = new Intent(MainActivity.this, HotelActivity.class);
+                intent.putExtra("username", username);
+                intent.putExtra("correo", correo);
+                startActivity(intent);
+                finish();
+                break;
+            case R.id.msitios:
+                intent = new Intent(MainActivity.this, SitiosActivity.class);
+                intent.putExtra("username", username);
+                intent.putExtra("correo", correo);
+                startActivity(intent);
+                finish();
+                break;
+
         }
         return super.onOptionsItemSelected(item);
     }

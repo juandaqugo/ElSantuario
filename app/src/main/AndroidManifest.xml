@@ -9,20 +9,41 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".SplashActivity" />
-        <activity android:name=".PerfilActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".PerfilActivity" />
+        <activity android:name=".LoginActivity"/>
         <activity android:name=".RegistroActivity" />
         <activity android:name=".DemoActivity" />
-        <activity
+        <!--
+            <activity
             android:name=".HotelesActivity"
             android:label="@string/title_activity_hoteles"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        -->
+        <activity
+            android:name=".fragmentsActivity"
+            android:label="@string/title_activity_fragments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+           <activity android:name=".ListaActivity" />
+           <activity
+               android:name=".DrawerActivity"
+               android:label="@string/title_activity_drawer"
+               android:theme="@style/AppTheme.NoActionBar"></activity>
+        -->
+        <activity
+            android:name=".HotelActivity"
+            android:label="@string/title_activity_hotel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SitiosActivity"
+            android:label="@string/title_activity_sitios"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

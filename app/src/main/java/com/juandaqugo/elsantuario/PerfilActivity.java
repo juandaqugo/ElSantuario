@@ -46,6 +46,27 @@ public class PerfilActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
                 break;
+            case R.id.m2bares:
+                intent = new Intent(PerfilActivity.this, fragmentsActivity.class);
+                intent.putExtra("username", username);
+                intent.putExtra("correo", correo);
+                startActivity(intent);
+                finish();
+                break;
+            case R.id.m2hoteles:
+                intent = new Intent(PerfilActivity.this, HotelActivity.class);
+                intent.putExtra("username", username);
+                intent.putExtra("correo", correo);
+                startActivity(intent);
+                finish();
+                break;
+            case R.id.m2sitios:
+                intent = new Intent(PerfilActivity.this, SitiosActivity.class);
+                intent.putExtra("username", username);
+                intent.putExtra("correo", correo);
+                startActivity(intent);
+                finish();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

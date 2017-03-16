@@ -28,18 +28,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/password"
+        android:inputType="textPassword"
         android:textAlignment="center"
         android:id="@+id/erpassword"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/rpassword"
+        android:inputType="textPassword"
         android:textAlignment="center"
         android:id="@+id/errpassword"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/correo"
+        android:inputType="textEmailAddress"
         android:textAlignment="center"
         android:id="@+id/ecorreo"/>
     <LinearLayout
@@ -51,12 +54,14 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="@string/registrese"
+            android:background="@color/green"
             android:id="@+id/bregistrese"/>
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="@string/cancelar"
+            android:background="@color/green"
             android:id="@+id/bcancelar"/>
     </LinearLayout>
 </LinearLayout>
